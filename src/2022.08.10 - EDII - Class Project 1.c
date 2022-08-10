@@ -29,6 +29,6 @@
 
 		// Caso Recursivo:
 			moveTorre((n-1), orig, aux, dest);
-			printf("\nMover disco %i da torre %c para a torre %c"), n, orig, dest;
+			printf("\nMover disco %i da torre %c para a torre %c", n, orig, dest);
 			moveTorre((n-1), aux, dest, orig);
 	}
